@@ -56,3 +56,59 @@ Dev dependencies:
 ## Notes
 - The test setup configures Jest to run ESM tests using `--experimental-vm-modules`.
 - `.gitignore` is included to avoid committing `node_modules`, `.env` files(you have example, just remove ".example" and type your data), and build/test artifacts.
+
+# Eco Frontend (frontend)
+
+A React-based frontend application for ecological data management and visualization.
+
+## Features
+
+- Data table visualization
+- RESTful API integration
+- Responsive user interface
+- Real-time data updates
+
+## Quick Start
+
+1. Install React
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Available Scripts
+
+- `npm start` - Run the app in development mode
+- `npm build` - Build the app for production
+- `npm test` - Launch the test runner
+
+## Project Structure
+
+```
+src/
+├── App.js              # Main application component
+├── index.js            # Application entry point
+├── api/
+│   └── api.js          # API communication
+└── components/
+    └── DataTable.js    # Data table component
+```
+
+## Technologies
+
+- React
+- Node.js
+- REST API
+- Axios
+
+## Notes
+- /public was added to gitignore
