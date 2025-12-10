@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand",
+    "seed": "node scripts/seed.js",
+     "seed:clear": "node scripts/clear.js"
+  },
+  "dependencies": {
+    "mongodb-memory-server": "^10.4.1",
+    "mongoose": "^9.0.1",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  }
+}
